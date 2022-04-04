@@ -93,7 +93,7 @@ function draw() {
 //add a animation for gameover
 //scale the gameover image
 gameOver = createSprite(400,600);
-gameOver.addAnimation(gameOverImg);
+gameOver.addImage(gameOverImg);
 gameOver.scale = 0.5;
 
        
